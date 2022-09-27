@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 5
+        span(style="color: #FFF") 5
       h1 Cartografía literaria
     p.mb-5 La cartografía, un saber antiguo que consiste en la interpretación de la realidad espacial con el trazo en papel de cartas de geografía, usando escalas, que hoy en día se digitaliza y tiene suma importancia en todas las actividades del ser humano relacionadas con la ubicación. Este concepto, al ser relacionado con lo literario, se comprende en tres sentidos, los cuales se pueden estudiar en el siguiente recurso:
     .tarjeta.tarjeta--azul.p-4.p-lg-5
@@ -197,7 +197,7 @@
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-auto
-              img(src="@/assets/curso/tema2/img25.svg")
+              img(src="@/assets/curso/tema5/img3.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

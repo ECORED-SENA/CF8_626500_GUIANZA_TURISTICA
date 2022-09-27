@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 6
+        span(style="color: #FFF") 6
       h1 Referentes rutas temáticas en Colombia y en el exterior
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

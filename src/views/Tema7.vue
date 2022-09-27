@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 7
+        span(style="color: #FFF") 7
       h1 El guion
     .row.align-items-center.bg-color24.mb-5
       .col-lg.mb-lg-0.p-4.p-lg-5
@@ -119,6 +119,76 @@
       .col-12
         figure
           img(src='@/assets/curso/tema7/img5.svg')
+    .row.bg-color27
+      .col-12.p-5
+        p.mb-5 En adición, para la estructuración del guion, se deben tener en cuenta algunos aspectos que son vitales, ya que son claves en la secuenciación que se le debe dar al producto final; estos son:
+        .row.bg-color2.shadow.mb-5
+          .col-12.p-5
+            p A mediados de los años 70, el Servicio Forestal de los Estados Unidos desarrolló un programa educativo para enseñar técnicas de reducción de impacto a los visitantes de lugares abiertos. Finalmente, en 1987 el Servicio de Parques Naturales y el Bureau of Land Management, crean un material educativo llamado Éticas de no deje rastro.
+            p.mb-5 Se trató de un compendio de principios para orientar las prácticas de visitas a lugares a campo abierto.
+            .row.justify-content-center
+              .col-lg-10
+                PasosA.color-primario(tipo="n").mb-5
+                  .row.align-items-center
+                    .col-lg.mb-4.mb-lg-0
+                      h4 Definir el número de actos
+                      p (En turismo:  segmentos), lo cual se hace de acuerdo con la necesidad, el ritmo de la historia y la complejidad de la trama.  Según los libretos tradicionales y los mínimos de una obra, son tres actos, relacionados con las etapas de inicio, nudo y conclusión.
+                      p Para los contemporáneos, el ideal es cuatro; Shakespeare trabajó con cinco;  el drama, la comedia o la acción  requieren de por lo menos siete.  Lo importante es que la estructura se monte sobre la técnica episódica, es decir, de episodios, momentos cortos.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img9.png')
+                  .row.align-items-center.txt-f1
+                    .col-lg.mb-4.mb-lg-0
+                      h4 Dotar el guion y cada de una de las escenas con detalles
+                      p Lo que le da mayor consistencia, cuando estos son necesarios para documentar el personaje y la situación.  Cada línea de la historia debe ampliarse y enriquecerse con más información explícita que describa el momento.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img10.png')
+                  .row.align-items-center
+                    .col-lg.mb-4.mb-lg-0
+                      h4 Armar los diálogos
+                      p Con la descripción completa de las situaciones, se arman los diálogos entre personajes.  Iniciar siempre por releer las escenas, para dividirlas, reagruparlas y eliminarlas, según se requiera, ya sea por momentos;  revisar el manejo del tiempo y el espacio donde suceden los hechos, si es de día o de noche, si están en la oficina, en la casa, la calle, el restaurante, etc.
+                      p Los diálogos se hacen por escena y se alimentan con detalles de acuerdo con el personaje y la situación.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img11.png')
+                  .row.align-items-center.txt-f1
+                    .col-lg.mb-4.mb-lg-0
+                      h4 Revisiones
+                      p Se hace una primera revisión, con el fin de ir eliminando elementos no deseados; luego, el primer borrador debe dejarse de lado para realizar la segunda revisión, la cual debe ser muy objetiva, con el fin de asumir las correcciones necesarias.
+                      p También otras personas pueden leerlo y sugerir cambios desde otras perspectivas; todo esto ayuda a enriquecer su construcción.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img12.png')
+                  .row.align-items-center
+                    .col-lg.mb-4.mb-lg-0
+                      h4 La verificación final
+                      p Después de la corrección, se debe contemplar:  la adecuación de los personajes según la historia; la organización de las escenas y momentos de forma coherente,  con el fin de que cada detalle esté en el lugar correspondiente y que las escenas estén completas, sin vacíos.
+                      p Es necesario que cada momento esté completo, que la complejidad de los momentos entre personajes sea motivadora y de impacto, por lo que es indispensable revisar que el tono esté acorde con el género y la historia.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img14.png')
+                  .row.align-items-center.txt-f1
+                    .col-lg.mb-4.mb-lg-0
+                      h4 Errores comunes
+                      p Entre los más comunes en este tipo de textos, están:  los diálogos corrientes, sin sorpresas;  las frases de cajón; párrafos o diálogos de personajes largos; información repetida o reiterativa; personajes con diálogos que no les corresponden;  pérdida del hilo.
+                    .col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema7/img15.png')
+                .row.align-items-center.bg-color4
+                  .col-lg-auto
+                    figure.mt-4.mt-lg-0
+                      img(src='@/assets/curso/tema1/img6.png')
+                  .col-lg.p-4.p-lg-0
+                    h5.mb-0 Importante...
+                    p.mb-0 En guianza de recorridos culturales, es válida la teatralidad como parte del aprendizaje.  Contar historias en el interior de recintos como la muralla en Cartagena, una calle icónica en Bogotá, el recorrido de fantasmas en la Candelaria, la reconstrucción de la Leyenda del Dorado en la altiplanicie cundiboyacense o la recreación del Carnaval de Barranquilla, son fáciles de poner en escena y, en compañía de los turistas, desarrollar la temática de forma creativa y novedosa.
+        .row
+          .col-lg.mb-4.mb-lg-0
+            p Por otro lado, es necesario tener claro que la realización del estudio de cada sketch tiene una función específica, si es de carácter gracioso o escena, si es una representación más cercana a la historia real o puede ser grabada y reproducida en diferentes canales, o si se usa como recurso del viaje, por lo cual el escritor debe tener claro qué quiere hacer en cada caso.
+            p Cada sketch debe ser construido para su función, por lo que requiere una serie de equipos específicos, que deben ser cuidados, materiales que pueden ser costosos o frágiles y utensilios o utilería que debe ser manejada adecuadamente para que sean de larga duración; por otro lado, es importante tener presente el uso de elementos biodegradables, esto por los principios de sostenibilidad y cuidado medioambiental y con el fin de cumplir las normas ambientales, entre otros aspectos.
+          .col-lg-auto
+            figure.mt-4.mt-lg-0
+              img(src='@/assets/curso/tema7/img16.png')
 
 </template>
 

@@ -3,15 +3,13 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 El sector turístico a nivel mundial es uno de los que más aporta divisas o ingresos a los países, debido a que este se ha convertido, con el tiempo, en una de las actividades económicas más fortalecidas por los Estados, por esta razón, se han diseñado rutas y recorridos con el apoyo de guiones interpretativos, que entregan a los turistas actividades llenas de fascinación y de aventuras, donde pueden recrear la historia, la cultura y guardar en su memoria la transformación y evolución de su contexto y el de otros. Sabiendo esto y lo tratado en este componente formativo, lo invitamos a ver el siguiente mapa que resume la temática tratada:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/anexo3.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

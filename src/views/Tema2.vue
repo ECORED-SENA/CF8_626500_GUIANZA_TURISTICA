@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
+        span(style="color: #FFF") 2
       h1 Técnicas para escribir
     .row.justify-content-center
       .col-lg-10.bg-color10.p-4

@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 4
+        span(style="color: #FFF") 4
       h1 Literatura colombiana y narración
     .row.bg-color18
       .col-lg-6

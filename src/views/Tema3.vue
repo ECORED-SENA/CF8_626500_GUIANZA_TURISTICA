@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
+        span(style="color: #FFF") 3
       h1 Esquema y estructuras narrativas
     .row.justify-content-center.mb-5
       .col-lg-10.bg-color14.p-4

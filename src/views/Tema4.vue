@@ -107,7 +107,7 @@
     p.mb-5 Aquí, es importante resaltar algunos de los escritores colombianos más reconocidos a través de la historia, que han venido dejando huella en cada etapa por la manera en que han dejado plasmados los hechos de su contexto a través de las palabras o las fotos, y que han servido para marcar la diferencia entre la cultura colombiana y otras culturas extranjeras. Por ende, por medio del siguiente video sobre autores colombianos, podrá conocer sus aportes:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/LbD-xFVSmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido
@@ -256,7 +256,7 @@
     p.mb-5 Para complementar esta temática, a continuación, se presenta un video que resume los grandes acontecimientos de la literatura colombiana y que han dejado huella en la cultura de hoy:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/J63rUtCcQUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

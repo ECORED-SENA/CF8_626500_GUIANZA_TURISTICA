@@ -321,7 +321,7 @@ export default {
     {
       tema: '5.2 Las aventuras literarias',
       referencia:
-        'Asociación de Editores Madrid, Comunidad de Madrid, Cedro, Metro. (2021). <em>Plano Literario de Metro de Madrid</em>. Asocición de Editores Madrid',
+        'Asociación de Editores Madrid, Comunidad de Madrid, Cedro, Metro. (2021). <em>Plano Literario de Metro de Madrid</em>. Asocición de Editores Madrid.',
       tipo: 'Página web',
       link: 'https://www.editoresmadrid.org/plano-literario/',
     },

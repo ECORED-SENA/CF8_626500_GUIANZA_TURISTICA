@@ -60,7 +60,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema7/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Teniendo estas respuestas, se sugiere, además, escribir el logline de la historia, que consiste en un breve resumen con la esencia de la historia.
+        p.mb-0 Teniendo estas respuestas, se sugiere, además, escribir el #[i logline] de la historia, que consiste en un breve resumen con la esencia de la historia.
         br
         br
         | Este texto servirá posteriormente como una motivación o "gancho" emocional para estimular el interés en el guion y el contenido de este; es vital no olvidar la importancia de este aspecto durante la elaboración del escrito, debe producir emociones.
@@ -124,7 +124,7 @@
         p.mb-5 En adición, para la estructuración del guion, se deben tener en cuenta algunos aspectos que son vitales, ya que son claves en la secuenciación que se le debe dar al producto final; estos son:
         .row.bg-color2.shadow.mb-5
           .col-12.p-5
-            p A mediados de los años 70, el Servicio Forestal de los Estados Unidos desarrolló un programa educativo para enseñar técnicas de reducción de impacto a los visitantes de lugares abiertos. Finalmente, en 1987 el Servicio de Parques Naturales y el Bureau of Land Management, crean un material educativo llamado Éticas de no deje rastro.
+            p A mediados de los años 70, el Servicio Forestal de los Estados Unidos desarrolló un programa educativo para enseñar técnicas de reducción de impacto a los visitantes de lugares abiertos. Finalmente, en 1987 el Servicio de Parques Naturales y el #[i Bureau of Land Management], crean un material educativo llamado Éticas de no deje rastro.
             p.mb-5 Se trató de un compendio de principios para orientar las prácticas de visitas a lugares a campo abierto.
             .row.justify-content-center
               .col-lg-10
@@ -184,8 +184,8 @@
                     p.mb-0 En guianza de recorridos culturales, es válida la teatralidad como parte del aprendizaje.  Contar historias en el interior de recintos como la muralla en Cartagena, una calle icónica en Bogotá, el recorrido de fantasmas en la Candelaria, la reconstrucción de la Leyenda del Dorado en la altiplanicie cundiboyacense o la recreación del Carnaval de Barranquilla, son fáciles de poner en escena y, en compañía de los turistas, desarrollar la temática de forma creativa y novedosa.
         .row
           .col-lg.mb-4.mb-lg-0
-            p Por otro lado, es necesario tener claro que la realización del estudio de cada sketch tiene una función específica, si es de carácter gracioso o escena, si es una representación más cercana a la historia real o puede ser grabada y reproducida en diferentes canales, o si se usa como recurso del viaje, por lo cual el escritor debe tener claro qué quiere hacer en cada caso.
-            p Cada sketch debe ser construido para su función, por lo que requiere una serie de equipos específicos, que deben ser cuidados, materiales que pueden ser costosos o frágiles y utensilios o utilería que debe ser manejada adecuadamente para que sean de larga duración; por otro lado, es importante tener presente el uso de elementos biodegradables, esto por los principios de sostenibilidad y cuidado medioambiental y con el fin de cumplir las normas ambientales, entre otros aspectos.
+            p Por otro lado, es necesario tener claro que la realización del estudio de cada #[i sketch] tiene una función específica, si es de carácter gracioso o escena, si es una representación más cercana a la historia real o puede ser grabada y reproducida en diferentes canales, o si se usa como recurso del viaje, por lo cual el escritor debe tener claro qué quiere hacer en cada caso.
+            p Cada #[i sketch] debe ser construido para su función, por lo que requiere una serie de equipos específicos, que deben ser cuidados, materiales que pueden ser costosos o frágiles y utensilios o utilería que debe ser manejada adecuadamente para que sean de larga duración; por otro lado, es importante tener presente el uso de elementos biodegradables, esto por los principios de sostenibilidad y cuidado medioambiental y con el fin de cumplir las normas ambientales, entre otros aspectos.
           .col-lg-auto
             figure.mt-4.mt-lg-0
               img(src='@/assets/curso/tema7/img16.png')

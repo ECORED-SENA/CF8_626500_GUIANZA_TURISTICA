@@ -69,7 +69,7 @@
         p.mb-0 La escritura de guiones para el sector turístico varía según varios factores que se deben tener en cuenta al momento en que se va a escribir y de acuerdo con la población a la cual van dirigidos. Es por eso que, en el siguiente recurso de aprendizaje, se muestran algunos tipos, junto con las características que los definen:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2893N6lISyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_8_2
     .titulo-segundo.color-acento-contenido

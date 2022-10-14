@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 4
       h1 Literatura colombiana y narración
-    .row.bg-color18
+    .row.bg-color18(data-aos="fade-right")
       .col-lg-6
         .p-3.p-lg-5
           p La literatura colombiana inicia en la #[b.txt-c1 era precolombina], donde era manifestada a través de la tradición oral, de padres a hijos, por medio de la palabra o dibujos rupestres. #[b.txt-c1 De estas épocas, se encuentran escritos de mitos y leyendas, con personajes de dioses animales, astros y humanos].
@@ -19,15 +19,15 @@
       h2 4.1 Tipos y características
     .row.bg-color1
       .col-12.p-5
-        p.mb-5 La literatura colombiana es el resultado de la mezcla de culturas que se ha dado a través del tiempo y que ha caracterizado el desarrollo del inconsciente colectivo, el cual se ve necesariamente reflejado en los documentos que han surgido de entrañas de los grandes escritores, al ver cómo va evolucionando su contexto, y que buscan dejar plasmado, de alguna manera, lo que ven, sienten y piensan acerca de este. Por lo anterior, en el siguiente recurso podrá ver el proceso histórico desde los indígenas y su cosmovisión hasta el momento actual:
-        .row.bg-color2.shadow
+        p.mb-5(data-aos="fade-left") La literatura colombiana es el resultado de la mezcla de culturas que se ha dado a través del tiempo y que ha caracterizado el desarrollo del inconsciente colectivo, el cual se ve necesariamente reflejado en los documentos que han surgido de entrañas de los grandes escritores, al ver cómo va evolucionando su contexto, y que buscan dejar plasmado, de alguna manera, lo que ven, sienten y piensan acerca de este. Por lo anterior, en el siguiente recurso podrá ver el proceso histórico desde los indígenas y su cosmovisión hasta el momento actual:
+        .row.bg-color2.shadow(data-aos="fade-right")
           .col-12.p-5
             .row.align-items-center.mb-4
               .col-auto.pe-0
                 figure
                   img(src='@/assets/curso/tema1/img3.svg')
               .col
-                p.mb-0 #[b Planteamiento, nudo y desenlace]
+                h4.mb-0 #[b.txt-l1 Literatura colombiana y narración Evolución, tipos y características de la literatura colombiana a través de su historia]
             LineaTiempoE.color-acento-contenido
               .row(titulo="Literatura indígena" subtitulo="")
                 .col-lg-auto.mb-4.mb-lg-0
@@ -104,23 +104,23 @@
     #t_4_2
     .titulo-segundo.color-acento-contenido
       h2 4.2 Autores colombianos
-    p.mb-5 Aquí, es importante resaltar algunos de los escritores colombianos más reconocidos a través de la historia, que han venido dejando huella en cada etapa por la manera en que han dejado plasmados los hechos de su contexto a través de las palabras o las fotos, y que han servido para marcar la diferencia entre la cultura colombiana y otras culturas extranjeras. Por ende, por medio del siguiente video sobre autores colombianos, podrá conocer sus aportes:
-    figure
+    p.mb-5(data-aos="fade-right") Aquí, es importante resaltar algunos de los escritores colombianos más reconocidos a través de la historia, que han venido dejando huella en cada etapa por la manera en que han dejado plasmados los hechos de su contexto a través de las palabras o las fotos, y que han servido para marcar la diferencia entre la cultura colombiana y otras culturas extranjeras. Por ende, por medio del siguiente video sobre autores colombianos, podrá conocer sus aportes:
+    figure(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/LbD-xFVSmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido
       h2 4.3 Marco histórico de la literatura
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La historia define el #[b.txt-c1 nacimiento del arte de la palabra escrita en Mesopotamia], con los himnos de alabanza a la #[b.txt-c1 diosa sumeria Inanna], compuestos por la sacerdotisa Enheduanna por el año 2.285 antes de Cristo; además, en la investigación sobre el tema se encuentra información sobre la vida del rey Gilgamesh, primera persona que cuenta su historia y experiencias de viaje a través de una epopeya labrada sobre arcilla de tres mil versos y que fue descubierta relativamente hace poco, en el siglo XIX.
     p.mb-5 La escritura cambia con el tiempo y su historia está enraizada en el momento histórico, en la geografía, la cultura, los idiomas, la lengua y los diferentes dialectos que surgen en todo el mundo. Para el estudio universal de la literatura, esta se divide en tres géneros, los cuales se describen a continuación:
-    .row.mb-5
-      .col-lg.m-1.m-lg-3.bg-color15
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-11.col-md-7.col-lg.m-1.m-lg-3.bg-color15
         .p-5
           .row.justify-content-center.mb-5
             .col-8
@@ -128,7 +128,7 @@
                 img(src='@/assets/curso/tema4/img2.svg')
           h4.text-center La lírica
           p.text-center Es una composición de versos cortos, entre los que se encuentran la oda, la sátira, la égloga y el himno, entre otros.
-      .col-lg.m-1.m-lg-3.bg-color16
+      .col-11.col-md-7.col-lg.m-1.m-lg-3.bg-color16
         .p-5
           .row.justify-content-center.mb-5
             .col-8
@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/tema4/img3.svg')
           h4.text-center La épica
           p.text-center También llamada narrativa compuesta, está compuesta  por versos largos o prosa; entre las más conocidas está  la epopeya, o como se llamó originalmente, los cantares de gesta.
-      .col-lg.m-1.m-lg-3.bg-color17
+      .col-11.col-md-7.col-lg.m-1.m-lg-3.bg-color17
         .p-5
           .row.justify-content-center.mb-5
             .col-8
@@ -145,8 +145,8 @@
           h4.text-center El drama
           p.text-center No pueden faltar las obras teatrales, donde los hechos no se relatan, sino que se representan por personajes que muestran la tragedia, la farsa o la comedia, existente al interior de varias relaciones sociales.
     p.mb-5 La evolución de la literatura se comprende por la vía de las épocas y es tan amplia y vasta como la misma historia del hombre. A continuación, se presenta un breve resumen para comprender los momentos más importantes:
-    .row.bg-color19
-      .col-12
+    .row.justify-content-center.bg-color19(data-aos="fade-right")
+      .col-lg-10
         .p-5
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
@@ -235,15 +235,15 @@
     .titulo-segundo.color-acento-contenido
       h2 4.4 Relación literatura y turismo
     .row.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img13.png')
-      .col-lg
+      .col-lg(data-aos="fade-left")
         p Se ha podido comprobar que en los últimos años grandes éxitos de narrativas literarias de ficción han favorecido el incremento del turismo en Colombia y en el mundo. Los lectores que encontraron una conexión real con ese libro que les ha entusiasmado desean descubrir los lugares que tanto han imaginado tras las páginas de un cuento o una novela.
         p Los libros despiertan el interés de los #[b.txt-c1 turistas literarios], por lo tanto, los autores también se convierten en protagonistas. Esas casas donde nacieron los escritores o los cementerios donde fueron inhumados también se convirtieron en destinos literarios y turísticos de interés.
         p Muchas viviendas han sido convertidas en #[b.txt-c1 casas-museos], manteniendo el mobiliario y el estilo de la época, así como algunos objetos personales de los escritores narradores.
         p Cada vez es más frecuente que las empresas turísticas, las oficinas de turismo y las agencias de viajes ofrezcan #[b.txt-c1 rutas literarias] entre su oferta de actividades. Los destinos literarios crecen cada año con cada nuevo éxito literario, por lo que el turismo literario tiene un futuro promisorio.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         .row.align-items-center.bg-color20
           .col-lg
@@ -252,9 +252,9 @@
               p Los espacios históricos se convierten en parte de los productos turísticos, la historia narrada se convierte en parte del atractivo, estar donde han sucedido momentos icónicos de la historia de la humanidad se ha vuelto una manera de aprender y valorar la historia desde la Edad Antigua al siglo XXI.
           .col-lg-auto
             figure.mb-4.mb-lg-0
-              img(src='@/assets/curso/tema4/img14.png')
+              img(src='@/assets/curso/tema4/img14.png' style="width: 350px").m-auto
     p.mb-5 Para complementar esta temática, a continuación, se presenta un video que resume los grandes acontecimientos de la literatura colombiana y que han dejado huella en la cultura de hoy:
-    figure
+    figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/J63rUtCcQUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

@@ -3,16 +3,16 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 2
       h1 Técnicas para escribir
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.bg-color10.p-4
         .row.align-items-center
           .col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img1.png')
+              img(src='@/assets/curso/tema2/img1.png' style="width: 450px").m-auto
           .col-lg
             p.mb-0 La escritura, y especialmente la creativa, representa un reto para los escritores, desde una novela hasta un anuncio de promoción exigen calidad y contenidos universales, para llegar a muchas personas de acuerdo con la intencionalidad.
     Separador
@@ -20,11 +20,11 @@
     .titulo-segundo.color-acento-contenido
       h2 2.1 Escritura correcta
     .row.align-items-center.mb-4
-      .col-lg-auto
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img2.png')
-      .col-lg
-        p Seguir las etapas de la estructuración del escrito no asegura que quede perfecto, cada una de las fases propuestas tiene consideraciones técnicas o metodológicas que las hacen específicas en unos factores, como el de corrección, que es complejo y de alto nivel de conocimiento de temas poco conocidos.
+          img(src='@/assets/curso/tema2/img2.png' style="width: 350px").m-auto
+      .col-lg(data-aos="fade-left")
+        p.mb-4 Seguir las etapas de la estructuración del escrito no asegura que quede perfecto, cada una de las fases propuestas tiene consideraciones técnicas o metodológicas que las hacen específicas en unos factores, como el de corrección, que es complejo y de alto nivel de conocimiento de temas poco conocidos.
         .row.mb-4
           .col-12.bg-color11
             .p-4
@@ -48,9 +48,9 @@
     p.mb-5 Por lo tanto, quien asuma el papel de corrector debe discriminar y tomar decisiones sobre el tipo de función lingüística a corregir, establecer claramente la frontera, ser prudente y equilibrado en la tarea, por lo que debe tener en cuenta todos y cada uno de los elementos que a continuación se describen:
     .row.mb-4
       .col-auto.bg-color12
-        .p-4
+        .py-2.px-3
           h4.mb-0 Elementos para una escritura correcta
-    .tarjeta.tarjeta--amarilla2.p-4.mb-5
+    .tarjeta.tarjeta--amarilla2.p-4.mb-5(data-aos="fade-right")
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1")
           .col-12
@@ -105,8 +105,8 @@
             figure
               img(src='@/assets/curso/tema2/img14.svg')
     p.mb-5 En la construcción creativa de escritos, también es importante tener como referente los errores que generalmente ocurren y que se deben corregir, los cuales se mencionan en el siguiente recurso, según lo expresado por Díaz-Arnáez (2006):
-    .row
-      .col-12.bg-color13
+    .row.justify-content-center.bg-color13(data-aos="fade-left")
+      .col-lg-10
         .p-1.p-lg-5
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
@@ -145,17 +145,17 @@
     .titulo-segundo.color-acento-contenido
       h2 2.2 Las técnicas de la escritura
     .row.align-items-center.mb-4
-      .col-lg.mb-4.mb-lg-0
+      .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
         .row.mb-4
           .col-12.bg-color11
             .p-4
               p.mb-0 La técnica escrita se basa en la redacción de las ideas, el cumplimiento de reglas y normas del lenguaje para la calidad de los documentos y consecución del objetivo comunicativo.
         p.mb-0 Las habilidades para la redacción en el campo de lo técnico o lo estético tienen como fin que el lector lo comprenda y, en el caso de los lectores de campo profesional o del trabajo, minimicen la probabilidad de riesgos y queden claros los resultados esperados.
-      .col-lg-auto
+      .col-lg-auto(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img3.png')
     p.mb-5 Para iniciar la redacción, en general, se consideran unos pasos sencillos en los momentos de la construcción del documento, obsérvelos:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         PasosA.color-primario(tipo="n")
           .row.align-items-center
@@ -164,11 +164,11 @@
               p Ayuda a la delimitación del tema, a identificar las herramientas precisas para trabajarlo y para redactarlo, de acuerdo con las necesidades y objetivos.
             .col-lg-auto
               figure
-                img(src='@/assets/curso/tema2/img4.png')
+                img(src='@/assets/curso/tema2/img4.png' style="width: 350px").m-auto
           .row.align-items-center.txt-f1
             .col-lg-auto.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img5.png')
+                img(src='@/assets/curso/tema2/img5.png' style="width: 350px").m-auto
             .col-lg
               h4 La redacción
               p Es difícil para quien no está acostumbrado a escribir; para superarlo, se usan técnicas de desbloqueo, como, por ejemplo:
@@ -188,16 +188,16 @@
               p Ayuda a la estructuración de un esquema para conectar entre sí todas estas ideas.
             .col-lg-auto
               figure
-                img(src='@/assets/curso/tema2/img6.png')
+                img(src='@/assets/curso/tema2/img6.png' style="width: 350px").m-auto
           .row.align-items-center.txt-f1
             .col-lg-auto.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img7.png')
+                img(src='@/assets/curso/tema2/img7.png' style="width: 350px").m-auto
             .col-lg
               h4 La revisión
               p Este proceso de corrección, como se estudió anteriormente, ayuda a que los documentos sean coherentes,  con un lenguaje cohesivo y  con excelente calidad en su contenido.
     p.mb-5 Es importante hablar de las técnicas a la hora de escribir, ya que conocerlas y saber dónde, cuándo y cómo aplicarlas es clave para la construcción de documentos en general. En el siguiente cuadro, podrá comparar algunas que se van a mencionar:
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
       table
         thead
           tr
@@ -217,9 +217,9 @@
     p.mb-5 Aquí, es importante tener presente que el diálogo es ágil, presenta la evolución de los personajes, y por su lenguaje y forma de hablar, se demuestra la personalidad o sus estados de ánimo, así como las relaciones con otros personajes. Observe el siguiente video, que explica un poco al respecto:
     .row.mb-4
       .col-auto.bg-color12
-        .p-4
+        .py-2.px-3
           h4.mb-0 Técnica de diálogo
-    .tarjeta.tarjeta--amarilla2.p-4.mb-5
+    .tarjeta.tarjeta--amarilla2.p-4.mb-5(data-aos="fade-right")
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1")
           .col-12
@@ -228,7 +228,7 @@
               .row.justify-content-center
                 .col-lg-8
                   figure
-                    img(src='@/assets/curso/tema2/img17.svg')
+                    img(src='@/assets/curso/tema2/img17.svg' style="width: 550px").m-auto
         .row(titulo="2")
           .col-12
             .p-2.p-lg-4
@@ -239,7 +239,7 @@
                   p Un diálogo escrito técnicamente debe ser natural, creíble y de interés para el lector, lo que se logra a través del conocimiento de cada personaje, pues dos personajes nunca hablan o se expresan de igual forma; la carencia de identidad del personaje debe evitarse.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema2/img18.svg')
+                    img(src='@/assets/curso/tema2/img18.svg' style="width: 350px").m-auto
         .row(titulo="3")
           .col-12
             .p-2.p-lg-4
@@ -250,7 +250,7 @@
                   p Para corregir y mejorar el escrito del diálogo, se debe leer en voz alta y ajustar. Por otro lado, para afinar la escritura de diálogos, haga ejercicios como entrevistas a personajes famosos, lo que le permite practicar las preguntas y respuestas.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema2/img19.svg')
+                    img(src='@/assets/curso/tema2/img19.svg' style="width: 350px").m-auto
         .row(titulo="4")
           .col-12
             .p-2.p-lg-4
@@ -262,7 +262,7 @@
                   p También se pueden utilizar técnicas como elegir una característica del personaje y mostrarla de manera exagerada en todas las formas, un buen ejercicio para dar esa identidad mencionada.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema2/img20.svg')
+                    img(src='@/assets/curso/tema2/img20.svg' style="width: 250px").m-auto
         .row(titulo="5")
           .col-12
             .p-2.p-lg-4
@@ -271,19 +271,33 @@
               .row.justify-content-center
                 .col-lg-8
                   figure
-                    img(src='@/assets/curso/tema2/img21.svg')
+                    img(src='@/assets/curso/tema2/img21.svg' style="width: 550px").m-auto
         .row(titulo="6")
-          .col-12
+          .col-12.m-2
             .p-2.p-lg-4
               p Siempre alejarse de diálogos inútiles o demasiado obvios, estos aburren; usar indebidamente las rayas del guion o demasiados monólogos y frases muy largas, ya que estas también le quitan interés al escrito. En adición, carecer de gestos y exagerar las manifestaciones de ánimo muestran mala construcción de los contenidos.
               p.mb-5 Por otro lado, no dar información nueva en frases, pues el aporte de información permanente y diferente es clave para mantener el interés.  Para un resultado más ágil y natural en los diálogos, se pueden integrar tres elementos:  diálogos, acciones y descripciones.
               .row.justify-content-center
                 .col-lg-5.mb-4.mb-lg-0
-                  figure
-                    img(src='@/assets/curso/tema2/img24.svg')
+                  .row.justify-content-center
+                    .col-12.bg-color31.p-4
+                      .row
+                        .col-6.hr1
+                          figure.mb-4
+                            img(src='@/assets/curso/tema2/img24.svg', style="width: 50px").m-auto
+                          p.mb-0 Nueva información.
+                          p.mb-0 Acciones.
+                          p.mb-0 Descripciones.
+                        .col-6
+                          figure.mb-4
+                            img(src='@/assets/curso/tema2/img26.svg', style="width: 50px").m-auto
+                          p.mb-0 Tener muchos monólogos.
+                          p.mb-0 Tener muchas frases largas.
+                          p.mb-0 No usar gestos que transmitan sentimientos.
+                          p.mb-0 Tener muchas manifestaciones de ánimo.
                 .col-lg-5
                   figure
-                    img(src='@/assets/curso/tema2/img22.svg')
+                    img(src='@/assets/curso/tema2/img22.svg' style="width: 350px").m-auto
         .row(titulo="7")
           .col-12
             .p-2.p-lg-4
@@ -295,7 +309,7 @@
                 .col-lg-auto
                   figure
                     img(src='@/assets/curso/tema2/img23.svg')
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-8
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center

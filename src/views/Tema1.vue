@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 1
       h1 Producción textual en la escritura creativa
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
       )
@@ -21,14 +21,14 @@
           h2 1.1 Lectura: tipos, niveles, identificación de secuencias
         .row.bg-color2.shadow
           .col-12.p-5
-            .row.align-items-center.bg-color3.mb-5
+            .row.align-items-center.bg-color3.mb-5(data-aos="fade-down")
               .col-lg.p-4.mb-4.mb-lg-0
                 p.mb-0 La lectura es un proceso que relaciona varios aspectos intelectivos y funciones orgánicas de los ojos y cerebro. Se trata de tener la intención o interés de observar signos, símbolos o códigos expresados de forma escrita, en un orden, los cuales llegan al cerebro, donde son decodificados, interpretados y comprendidos, dejando un mensaje a quien lo lee, ya sea mental u oralmente.
-              .col-lg-auto
+              .col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img2.png')
+                  img(src='@/assets/curso/tema1/img2.png' style="width:350px").m-auto
             p.mb-5 Por otro lado, de la calidad y técnica de comprensión, surgen habilidades, las cuales son:
-            .row.justify-content-center.mb-5
+            .row.justify-content-center.mb-5(data-aos="fade-left")
               .col-lg-8
                 figure
                   img(src='@/assets/curso/tema1/img4.svg')
@@ -37,9 +37,9 @@
                 figure
                   img(src='@/assets/curso/tema1/img3.svg')
               .col
-                p.mb-0 #[b Tipos]
+                h4.mb-0 #[b.txt-l1 Tipos]
             p.mb-5 Dado que la lectura es una actividad exclusiva de los seres humanos y que esta se considera importante porque permite interpretar un texto, encontrarle un sentido y enriquecer nuestro intelecto, todo a través de la asimilación de la información desde diferentes perspectivas, se hace necesario identificar cuáles tipos de lectura hay y cómo pueden influir en el proceso del lector:
-            TabsB.color-acento-contenido.mb-5
+            TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
               .p-2.p-lg-5.py-md-5(titulo="Lectura literal" :icono="require('@/assets/curso/tema1/img5.svg')")
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
@@ -49,7 +49,7 @@
                     p Consiste en que el lector decodifica las palabras e ideas explícitas del escritor, y que, en un momento dado, las utiliza para crear textos propios; caracterizada porque el lector y el escritor tienen lenguajes comunes o porque el lector tiene algún interés en conocer las ideas del escritor.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img6.svg')
+                      img(src='@/assets/curso/tema1/img6.svg' style="width:350px").m-auto
               .p-2.p-lg-5.py-md-5(titulo="Lectura inferencia" :icono="require('@/assets/curso/tema1/img5.svg')")
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
@@ -125,25 +125,25 @@
                 figure
                   img(src='@/assets/curso/tema1/img3.svg')
               .col
-                p.mb-0 #[b Niveles]
-            p.mb-5 Los niveles se relacionan con el pensamiento que se desarrolla junto con la lectura, y están enumerados de acuerdo con la complejidad y el proceso asumido desde la perspectiva del lector y el cómo usa y para qué usa lo que lee, lo cual podrá conocer en el siguiente recurso:
-            figure.mb-5
+                h4.mb-0 #[b.txt-l1 Niveles]
+            p.mb-5(data-aos="fade-right") Los niveles se relacionan con el pensamiento que se desarrolla junto con la lectura, y están enumerados de acuerdo con la complejidad y el proceso asumido desde la perspectiva del lector y el cómo usa y para qué usa lo que lee, lo cual podrá conocer en el siguiente recurso:
+            figure.mb-5(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img10.svg')
             .row.align-items-center.mb-4
               .col-auto.pe-0
                 figure
                   img(src='@/assets/curso/tema1/img3.svg')
               .col
-                p.mb-0 #[b Identificación de secuencias]
+                h4.mb-0 #[b.txt-l1 Identificación de secuencias]
             .row.align-items-center.mb-5
-              .col-lg.mb-4.mb-lg-0
+              .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
                 p El prototipo de proposiciones, la organización según tipo de textos y los modos de encadenamiento están relacionados directamente con los lenguajes para la narración, descripción, exposición, explicación, argumentación o instrucción, son los elementos que conforman una secuencia.
                 .cajon.color-primario.p-4
                   h5.mb-0 Importante...
                   p.mb-0 La tarea del lector es identificar la estructura, para lo cual necesita habilidades cognitivas y capacidad de jerarquizar información y caracterizar el texto según el tipo; en cuanto al escritor, tiene como posibilidad la estructuración de cada texto con la técnica escritural del nivel.
-              .col-lg-auto
+              .col-lg-auto(data-aos="fade-left")
                 figure
-                  img(src='@/assets/curso/tema1/img3.png')
+                  img(src='@/assets/curso/tema1/img3.png' style="width: 350px").m-auto
             p Para la identificación de la secuencia, además de leer el texto, se debe hacer la identificación de los pasos que este tiene, por ejemplo: determinar las causas y consecuencias de los hechos, el orden de los acontecimientos y hacer la verificación de que los sucesos estén dispuestos y acordes con el tipo de texto. 
             p En adición, se pueden presentar varias secuencias en un mismo texto; un ejemplo es la biografía, en la cual se pueden encontrar: narraciones, descripciones y diálogos explicativos.
         Separador
@@ -151,25 +151,39 @@
         .titulo-segundo.color-acento-contenido
           h2 1.2 Comprensión textual y literaria
         p.mb-5 Fruto de la interacción con el texto, el lector, después de elaborar el análisis de ideas e interrelacionarlas con otros componentes, emite una #[b.txt-c1 conclusión desde el análisis, que puede ser textual o con gráfica]. Lograrlo, requiere del uso de las siguientes estrategias:
-        .row.justify-content-center.mb-5
-          .col-lg-5.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema1/img4.png')
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema1/img5.png')
-    .row.justify-content-center.mb-5
+        .row.justify-content-center(data-aos="fade-right")
+          .col-md-10.col-lg-5.mb-4.mb-lg-0
+            .row.align-items-center
+              .col-auto
+                .fig-p1
+                  figure
+                    img(src='@/assets/curso/tema1/img4.png', style="width: 150px")
+              .col-6.col-md-5.bg-color29.p-4
+                .row.align-items-center
+                  .col-12
+                    h4.text-center.my-3 De lectura
+          .col-md-10.col-lg-5
+            .row.align-items-center
+              .col-auto
+                .fig-p1
+                  figure
+                    img(src='@/assets/curso/tema1/img5.png', style="width: 150px")
+              .col-6.col-md-5.bg-color30.p-4
+                .row.align-items-center
+                  .col-12
+                    h4.text-center.my-3 De escritura
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.align-items-center.bg-color4
           .col-lg-auto
             figure.mt-4.mt-lg-0
-              img(src='@/assets/curso/tema1/img6.png')
+              img(src='@/assets/curso/tema1/img6.png' style="width: 350px").m-auto
           .col-lg.p-4
             h5.mb-0 Importante...
             p.mb-0 Estas herramientas ayudan a encontrar el significado de lo que lee, como también las formas de estructurar el texto y cómo puede interactuar con él.
     p.mb-5 Por otro lado, es necesario revisar los procesos mentales que se necesitan para la comprensión textual y su origen, los cuales son:
     .row.justify-content-center.mb-6
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
@@ -178,7 +192,7 @@
               .row.align-items-center.h-100
                 .col-12
                   p.mb-0 Los conocimientos previos
-      .col-lg-4
+      .col-lg-4(data-aos="fade-down")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
@@ -193,7 +207,7 @@
         .row.bg-color2.shadow.mb-5
           .col-12.p-4.p-lg-5
             p.mb-5 Antes de iniciar la lectura, es de vital importancia tener presentes algunos elementos que le permitirán definir con claridad el objetivo lector que tiene, por lo que debe realizar con anterioridad los siguientes pasos:
-            PasosA.color-primario.mb-5(tipo="n")
+            PasosA.color-primario.mb-5(tipo="n")(data-aos="fade-right")
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
                   ul.lista-ul
@@ -211,11 +225,11 @@
                       | Planificar el proceso lector.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img7.png')
+                    img(src='@/assets/curso/tema1/img7.png' style="width: 350px").m-auto
               .row.align-items-center.txt-f1
                 .col-lg-auto.mb-4.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/img8.png')
+                    img(src='@/assets/curso/tema1/img8.png' style="width: 350px").m-auto
                 .col-lg
                   p En adición, antes de iniciar la lectura, debe definir qué es lo que va a buscar al realizar la lectura:
                   ul.lista-ul
@@ -256,11 +270,11 @@
                       | Hacer seguimiento al proceso lector.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img9.png')
+                    img(src='@/assets/curso/tema1/img9.png' style="width: 350px").m-auto
               .row.align-items-center.txt-f1
                 .col-lg-auto.mb-4.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/img10.png')
+                    img(src='@/assets/curso/tema1/img10.png' style="width: 350px").m-auto
                 .col-lg
                   p Por otro lado, es vital tener en cuenta:
                   ul.lista-ul
@@ -305,11 +319,11 @@
                       | Ejercitar procesos de transferencia y ampliar el conocimiento.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img11.png')
+                    img(src='@/assets/curso/tema1/img11.png' style="width: 350px").m-auto
               .row.align-items-center.txt-f1
                 .col-lg-auto.mb-4.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/img12.png')
+                    img(src='@/assets/curso/tema1/img12.png' style="width: 350px").m-auto
                 .col-lg
                   p En este punto de la lectura, también es importante tener presentes elementos que le facilitarán la comprensión del documento leído:
                   ul.lista-ul
@@ -329,7 +343,7 @@
                       i.fas.fa-location-arrow(style="color: #FF5900")
                       | Representar la información global textual en una o varias ilustraciones conectadas, como el uso de mapas conceptuales para organizar y conectar la información.
         p En adición a lo anterior, es necesario tener presente que existen otros elementos que también son importantes en el proceso de construcción de escritos creativos, ya que un buen escritor es también un muy buen lector; por lo anterior, se hace necesario revisar cuáles son las estrategias de comprensión lectora planteadas en el siguiente recurso de aprendizaje:
-    .row.bg-color6
+    .row.bg-color6(data-aos="fade-right")
       .p-5
         .col-12.d-none.d-lg-block
           figure.py-5
@@ -348,7 +362,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.3 Etapas en la producción de textos
     p.mb-5 Para la producción de textos escritos, es necesario tener claros algunos aspectos antes de iniciar el proceso de construcción del documento, ya que, de esta manera, tendrá ganado un alto porcentaje, debido a que ya sabe hacia dónde va y qué quiere expresar; estos elementos son:
-    .row.align-items-center.bg-color7.mb-5
+    .row.align-items-center.bg-color7.mb-5(data-aos="fade-left")
       .col-lg.mb-4.mb-lg-0
         .p-4
           ul.lista-ul
@@ -372,12 +386,12 @@
               | No usar palabras rebuscadas o descontextualizadas, ya que debe tener en cuenta la población a la cual va dirigido el contenido, el nivel educativo y el manejo del idioma, entre otras cosas.
       .col-lg-auto
         figure.mb-4.mb-lg-0
-          img(src='@/assets/curso/tema1/img13.png')
+          img(src='@/assets/curso/tema1/img13.png' style="width: 350px").m-auto
     p.mb-5 Cuando se hace la producción de un texto, se deben tener en cuenta algunas pautas, para que tenga una estructura clara, para darle coherencia, cohesión y sentido al documento; dichas pautas son:
-    .row.align-items-center.bg-color8.mb-5
+    .row.align-items-center.bg-color8.mb-5(data-aos="fade-right")
       .col-lg-auto.mb-4.mb-lg-0
         figure.mt-4.mb-lt-0
-          img(src='@/assets/curso/tema1/img14.png')
+          img(src='@/assets/curso/tema1/img14.png' style="width: 350px").m-auto
       .col-lg
         .p-4
           ul.lista-ul
@@ -403,7 +417,7 @@
               i.fas.fa-location-arrow(style="color: #FF5900")
               | Completar lo que corresponde al estilo de escritura usado.
     p.mb-5 En adición, se hace necesario conocer las etapas de la escritura y comprender por qué estas son cíclicas y qué función cumple este ritmo (ciclo) en la construcción creativa de textos, lo que podrá aprender a continuación:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-12.bg-color9
         .p-1.p-lg-5
           ImagenInfografica.color-acento-botones

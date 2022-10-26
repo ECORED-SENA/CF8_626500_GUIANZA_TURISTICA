@@ -14,7 +14,7 @@
         ul.lista-ul
           li 
             i.fas.fa-location-arrow(style="color: #FF5900")
-            | El título, que casi siempre es provisional; en español, también se utiliza la palabra concepto o premisa, y ha de resumir la historia en una frase, ayudando a determinar el nombre.
+            | El título, que casi siempre es provisional; en español, también se utiliza la palabra, concepto o premisa, y ha de resumir la historia en una frase, ayudando a determinar el nombre.
           li 
             i.fas.fa-location-arrow(style="color: #FF5900")
             | Información de la temática, por lo que se debe hacer una investigación previa para generar un documento inicial.
@@ -47,7 +47,7 @@
           img(src='@/assets/curso/tema1/img3.svg')
       .col
         h4.mb-0 #[b.txt-l1 El guion]
-    p.mb-5 Elementos que se deben tener en cuenta para construir el nudo  o el desarrollo de los hechos en un documento creativo.
+    p.mb-5 A nivel general, para construirlo, se hace necesario partir de una serie de preguntas iniciales para escribir historias y ser creativo.
     .row(data-aos="fade-right")
       .col-12.bg-color25
         .p-4
@@ -71,6 +71,7 @@
           img(src='@/assets/curso/tema1/img3.svg')
       .col
         h4.mb-0 #[b.txt-l1 Evolución o transformación del personaje dentro de la trama]
+    p.mb-5 La construcción de personajes debe permitir conocer e identificar los deseos, necesidades y objetivos dentro de la trama y, en adición, es indispensable responder:
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-10.col-md-7.col-lg.m-1.m-lg-3.bg-color15
         .p-5
@@ -96,7 +97,8 @@
                 img(src='@/assets/curso/tema7/img6.png')
           h4.text-center ¿Qué pasará?
           p.text-center En este momento, se piensa en el estado final del personaje; en la medida en que ha pasado diferentes situaciones, él o ella  han cambiado, pero interesa saber  cómo estás le afectarán.
-    p.mb-5 Para darle #[b.txt-c1 orden o secuencia a la historia], en el #[b.txt-c1 nudo se arman una serie de sucesos] con los personajes, que van marcando momentos de clímax, de conflictos, de situaciones graves, tristes, de soledad o de dolor, etc. Es allí donde el escritor, al pensar en la estructura del guion, debe hacerse una serie de preguntas que le den un norte y que le permitan clarificar la idea general, la cual se va a detallar posteriormente mediante los actos, las escenas y la caracterización de cada momento; estas preguntas son:
+    p Para darle #[b.txt-c1 orden o secuencia a la historia], en el #[b.txt-c1 nudo se arman una serie de sucesos] con los personajes, que van marcando momentos de clímax, de conflictos, de situaciones graves, tristes, de soledad o de dolor, etc. Es allí donde el escritor, al pensar en la estructura del guion, debe hacerse una serie de preguntas que le den un norte y que le permitan clarificar la idea general, la cual se va a detallar posteriormente mediante los actos, las escenas y la caracterización de cada momento; estas preguntas son:
+    p.mb-5 Elementos que se deben tener en cuenta para construir el nudo  o el desarrollo de los hechos en un documento creativo.
     .row.mb-5(data-aos="fade-down")
       .col-12.p-4.bg-color26
         figure
@@ -115,6 +117,7 @@
           img(src='@/assets/curso/tema1/img3.svg')
       .col
         h4.mb-0 #[b.txt-l1 ¿Cómo construyo los actos en el guion..?]
+    p.mb-5 El acto: orden del desarrollo del problema como parte central.
     .row.mb-5(data-aos="fade-up")
       .col-12
         figure
@@ -124,55 +127,60 @@
         p.mb-5 En adición, para la estructuración del guion, se deben tener en cuenta algunos aspectos que son vitales, ya que son claves en la secuenciación que se le debe dar al producto final; estos son:
         .row.bg-color2.shadow.mb-5
           .col-12.p-5
-            p A mediados de los años 70, el Servicio Forestal de los Estados Unidos desarrolló un programa educativo para enseñar técnicas de reducción de impacto a los visitantes de lugares abiertos. Finalmente, en 1987 el Servicio de Parques Naturales y el #[i Bureau of Land Management], crean un material educativo llamado Éticas de no deje rastro.
-            p.mb-5 Se trató de un compendio de principios para orientar las prácticas de visitas a lugares a campo abierto.
+            p Estructuración, elementos que se deben tener en cuenta para construir creativamente.
             .row.justify-content-center(data-aos="fade-right")
               .col-lg-10
                 PasosA.color-primario(tipo="n").mb-5
                   .row.align-items-center
-                    .col-lg.mb-4.mb-lg-0
+                    .col-lg-7.mb-4.mb-lg-0
                       h4 Definir el número de actos
-                      p (En turismo:  segmentos), lo cual se hace de acuerdo con la necesidad, el ritmo de la historia y la complejidad de la trama.  Según los libretos tradicionales y los mínimos de una obra, son tres actos, relacionados con las etapas de inicio, nudo y conclusión.
+                      p En turismo:  segmentos, lo cual se hace de acuerdo con la necesidad, el ritmo de la historia y la complejidad de la trama.  Según los libretos tradicionales y los mínimos de una obra, son tres actos, relacionados con las etapas de inicio, nudo y conclusión.
                       p Para los contemporáneos, el ideal es cuatro; Shakespeare trabajó con cinco;  el drama, la comedia o la acción  requieren de por lo menos siete.  Lo importante es que la estructura se monte sobre la técnica episódica, es decir, de episodios, momentos cortos.
-                    .col-lg-auto
+                    .col-lg
                       figure
                         img(src='@/assets/curso/tema7/img9.png' style="width: 350px").m-auto
+                      p.ms-3.mt-2 Tres actos: inicio, nudo y conclusión.
                   .row.align-items-center.txt-f1
-                    .col-lg-auto.mb-4.mb-lg-0
+                    .col-lg.mb-4.mb-lg-0
                       figure
                         img(src='@/assets/curso/tema7/img10.png' style="width: 350px").m-auto
-                    .col-lg
+                      p.ms-3.mt-2 Transformación del personaje al construir el guion.
+                    .col-lg-7
                       h4 Dotar el guion y cada de una de las escenas con detalles
                       p Lo que le da mayor consistencia, cuando estos son necesarios para documentar el personaje y la situación.  Cada línea de la historia debe ampliarse y enriquecerse con más información explícita que describa el momento.
                   .row.align-items-center
-                    .col-lg.mb-4.mb-lg-0
+                    .col-lg-7.mb-4.mb-lg-0
                       h4 Armar los diálogos
                       p Con la descripción completa de las situaciones, se arman los diálogos entre personajes.  Iniciar siempre por releer las escenas, para dividirlas, reagruparlas y eliminarlas, según se requiera, ya sea por momentos;  revisar el manejo del tiempo y el espacio donde suceden los hechos, si es de día o de noche, si están en la oficina, en la casa, la calle, el restaurante, etc.
                       p Los diálogos se hacen por escena y se alimentan con detalles de acuerdo con el personaje y la situación.
-                    .col-lg-auto
+                    .col-lg
                       figure
                         img(src='@/assets/curso/tema7/img11.png' style="width: 350px").m-auto
+                      p.ms-3.mt-2 Los diálogos bien construidos promueven la cercanía del otro.
                   .row.align-items-center.txt-f1
-                    .col-lg-auto.mb-4.mb-lg-0
+                    .col-lg.mb-4.mb-lg-0
                       figure
                         img(src='@/assets/curso/tema7/img12.png' style="width: 350px").m-auto
-                    .col-lg
+                      p.ms-3.mt-2 Las continuas revisiones permiten perfeccionas el producto final.
+                    .col-lg-7
                       h4 Revisiones
                       p Se hace una primera revisión, con el fin de ir eliminando elementos no deseados; luego, el primer borrador debe dejarse de lado para realizar la segunda revisión, la cual debe ser muy objetiva, con el fin de asumir las correcciones necesarias.
                       p También otras personas pueden leerlo y sugerir cambios desde otras perspectivas; todo esto ayuda a enriquecer su construcción.
                   .row.align-items-center
-                    .col-lg.mb-4.mb-lg-0
+                    .col-lg-7.mb-4.mb-lg-0
                       h4 La verificación final
                       p Después de la corrección, se debe contemplar:  la adecuación de los personajes según la historia; la organización de las escenas y momentos de forma coherente,  con el fin de que cada detalle esté en el lugar correspondiente y que las escenas estén completas, sin vacíos.
                       p Es necesario que cada momento esté completo, que la complejidad de los momentos entre personajes sea motivadora y de impacto, por lo que es indispensable revisar que el tono esté acorde con el género y la historia.
-                    .col-lg-auto
+                    .col-lg
                       figure
                         img(src='@/assets/curso/tema7/img14.png' style="width: 350px").m-auto
+                      p.ms-3.mt-2 Es importante verificar que el tono esté de acuerdo al género y la historia en general.
                   .row.align-items-center.txt-f1
-                    .col-lg-auto.mb-4.mb-lg-0
+                    .col-lg.mb-4.mb-lg-0
                       figure
                         img(src='@/assets/curso/tema7/img15.png' style="width: 350px").m-auto
-                    .col-lg
+                      p.ms-3.mt-2 Diálogos que no le transmiten sensaciones ni emociones al otro, por lo que no le impactan.
+                    .col-lg-7
                       h4 Errores comunes
                       p Entre los más comunes en este tipo de textos, están:  los diálogos corrientes, sin sorpresas;  las frases de cajón; párrafos o diálogos de personajes largos; información repetida o reiterativa; personajes con diálogos que no les corresponden;  pérdida del hilo.
                 .row.align-items-center.bg-color4(data-aos="fade-left")

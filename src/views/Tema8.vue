@@ -17,11 +17,10 @@
               .tarjeta.tarjeta--amarilla.p-4
                 .row.justify-content-center
                   .col-12
-                    p Campo de actuación en el que el guía puede ofrecer sus servicios como independiente directamente al turista, pasajero o visitante, también a empresas del sector, tales como:
                     ul.lista-ul
                       li 
                         i.fas.fa-location-arrow
-                        | Tener conocimiento del territorio, próximo y lejano, con el fin de hacer una análisis DOFA de los servicios que se pueden ofrecer.
+                        | Tener conocimiento del territorio, próximo y lejano, con el fin de hacer un análisis DOFA de los servicios que se pueden ofrecer.
                       li 
                         i.fas.fa-location-arrow
                         | Es importante hacer un análisis de los proveedores de otros servicios similares y diferentes en la zona, con el fin de permanentemente estar haciendo un análisis e investigación del mercado, para estar a la vanguardia y ser competente.
@@ -30,7 +29,7 @@
                         | Otro factor que debe tener en cuenta es conocer proveedores de servicios adicionales, que pueda incluir u ofrecer como parte de su ruta turística en la zona.
                       li 
                         i.fas.fa-location-arrow
-                        | El conocimiento de la comunidad es vital, ya que permite que esta participe en el proceso de construcción del proyecto, hace que se vuelva parte del inconsciente colectivo y motiva a la gente a trabajar en forma comunitaria para lograr el éxito del mismo a nivel local, regional, nacional e internacional, si es necesario.
+                        | El conocimiento de la comunidad es vital, ya que permite que esta partícipe en el proceso de construcción del proyecto, hace que se vuelva parte del inconsciente colectivo y motiva a la gente a trabajar en forma comunitaria para lograr el éxito del mismo a nivel local, regional, nacional e internacional, si es necesario.
               .tarjeta.tarjeta--amarilla.p-4
                 .row.justify-content-center
                   .col-12
@@ -106,7 +105,7 @@
           SlyderA
             .row
               .col-12.p-4
-                p Para llegar a interpretar el guion, sea por empresa o individual, inicialmente, lo que se hace es un estudio del material; por lo anterior, se deben tener en cuenta los siguientes elementos:
+                p Si se va a diseñar el guion, se deben tener en cuenta los insumos para esta tarea, los cuales se muestran a continuación:
                 ul.lista-ul
                   li 
                     i.fas.fa-location-arrow(style="color: #406834")
@@ -261,7 +260,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p #[b Anexo]. estándar para hacer guiones creativos para el turismo
+            p #[b Anexo]. Estándar para hacer guiones creativos para el turismo
     Separador
     #t_8_4
     .titulo-segundo.color-acento-contenido
@@ -275,7 +274,7 @@
             i.fas.fa-quote-right
           p.text-regular.bloque-texto-f__texto “Aun cuando el Camino del Gaucho es un territorio relativo a una cultura rural funcional bajo las necesidades productivas de la economía ganadera del siglo XVII; correspondiente a un subsistema regional perteneciente al Mercosur y compuesto por territorios compartidos entre Brasil, Uruguay y Argentina; fue este último país quien apostó fuertemente por aprovechar la gran concentración de valores paisajísticos y culturales del bioma pampeano y en especial de la zona más vinculada al litoral costero entre el mar argentino en el océano atlántico y la desembocadura del Río de la Plata, el cual vivía hacia el año de 1995 una compleja situación con sus ecosistemas naturales.
           p.text-regular.bloque-texto-f__texto Este delicado equilibrio se veía amenazado principalmente por la desarticulación de sus poblados, el abandono de sus estaciones de ferrocarril, o las necesidades sociales insatisfechas de sus cascos de estancia; pero también por la escasa valoración de las históricas tecnologías campestres utilizadas en sus labores cotidianas, tan apropiadas para el manejo de pastizales, aguadas, y caminos de tropas; por la difícil transición que suponía la lógica evolución tecnológica de sus procesos productivos tras la paulatina introducción del alambrado, el molino, la agricultura tradicionalmente extractiva, hasta llegar al actual y obligado modelo de agroindustria sostenible.
-          p.text-regular.bloque-texto-f__texto Acorde con la problemática, la puesta en marcha del corredor turístico Camino del Gaucho significa en la actualidad una contribución a la conservación y evolución del paisaje, y a la ordenación y desarrollo del territorio, desde una mirada eminentemente cultural: el territorio como paisaje o el arte del paisaje al servicio del territorio¨
+          p.text-regular.bloque-texto-f__texto Acorde con la problemática, la puesta en marcha del corredor turístico Camino del Gaucho significa en la actualidad una contribución a la conservación y evolución del paisaje, y a la ordenación y desarrollo del territorio, desde una mirada eminentemente cultural: el territorio como paisaje o el arte del paisaje al servicio del territorio”
           .bloque-texto-f__autor.mb-3
             h4.mb-0 (Bernárdez, 2012).
       .col-lg-auto(data-aos="fade-left")
@@ -315,7 +314,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Como parte de su aprendizaje autónomo, le invitamos a ver el video de la Uned, que maneja la Cátedra de Turismo Sostenible en España con el nombre "#[i Inventario del ICT]", el cual menciona algunos elementos que se deben tener en cuenta para diseñar un recorrido turístico, que se encuentra en la sección de material complementario.
+                  p.mb-0 Como parte de su aprendizaje autónomo, le invitamos a ver el video de la UNED, que maneja la Cátedra de Turismo Sostenible en España con el nombre "#[i Inventario del ICT]", el cual menciona algunos elementos que se deben tener en cuenta para diseñar un recorrido turístico, que se encuentra en la sección de material complementario.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=NGCB9JE4ftw" target="_blank")
                     span Ver video 

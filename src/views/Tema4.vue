@@ -151,8 +151,8 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema4/img6.svg')
-            .tarjeta.color-acento-contenido2.p-3(x="100%" y="0%" numero="+")
+                img(src='@/assets/curso/tema4/img6.svg' style="width: 600px").m-auto
+            .tarjeta.color-acento-contenido2.p-3(x="80%" y="8%" numero="+")
               h4 1. Obras importantes:
               ul.lista-ul
                 li 
@@ -167,7 +167,7 @@
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
                   | La Ilíada y la Odisea de Homero, antigüedad clásica.
-            .tarjeta.color-acento-contenido2.p-3(x="100%" y="20%" numero="+")
+            .tarjeta.color-acento-contenido2.p-3(x="80%" y="36%" numero="+")
               h4 2. Obras importantes:
               ul.lista-ul
                 li 
@@ -185,7 +185,7 @@
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
                   | El Cantar de los Nibelungos, anónimo.
-            .tarjeta.color-acento-contenido2.p-3(x="100%" y="44%" numero="+")
+            .tarjeta.color-acento-contenido2.p-3(x="80%" y="64%" numero="+")
               h4 3. Obras importantes:
               ul.lista-ul
                 li 
@@ -206,7 +206,7 @@
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
                   | Macbeth, es una tragedia escrita por William Shakespeare, basada en la ambición política en aquellos que buscan el poder por sí mismo.
-            .tarjeta.color-acento-contenido2.p-3(x="100%" y="78%" numero="+")
+            .tarjeta.color-acento-contenido2.p-3(x="80%" y="92%" numero="+")
               h4 4. Obras importantes:
               ul.lista-ul
                 li 

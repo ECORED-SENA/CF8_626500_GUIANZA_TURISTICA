@@ -50,10 +50,10 @@
                   .col-lg-auto
                     figure
                       img(src='@/assets/curso/tema1/img6.svg' style="width:350px").m-auto
-              .p-2.p-lg-5.py-md-5(titulo="Lectura inferencia" :icono="require('@/assets/curso/tema1/img5.svg')")
+              .p-2.p-lg-5.py-md-5(titulo="Lectura inferencial" :icono="require('@/assets/curso/tema1/img5.svg')")
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
-                    h4 Lectura inferencia
+                    h4 Lectura inferencial
                     p Se usa mucho en la investigación...
                     p La lectura implícita se encuentra en la lectura inferencial, que consiste en que el lector:
                     ul.lista-ul
@@ -69,7 +69,7 @@
                     p Es muy usada en investigación para citar referencias de autores y construir marcos conceptuales, entre otros.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img7.svg')
+                      img(src='@/assets/curso/tema1/img7.svg' style="width:350px").m-auto
               .p-2.p-lg-5.py-md-5(titulo="Lectura crítica" :icono="require('@/assets/curso/tema1/img5.svg')")
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
@@ -80,25 +80,22 @@
                     ul.lista-ul
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        | Análisis,
+                        | Análisis.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        | Reconocer contextos temporales,
+                        | Reconocer contextos temporales.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        | Conocer contextos históricos o el de interés,
+                        | Conocer contextos históricos o el de interés.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        |Saber usar herramientas que le permitan asimilar la información, como:
-                      li 
-                        i.fas.fa-location-arrow(style="color: #FF5900")
-                        | subrayar y tomar notas; para, finalmente:
+                        |Saber usar herramientas que le permitan asimilar la información, como: subrayar y tomar notas.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
                         | Reflexionar sobre el autor y, por qué no,  contrastar sus opiniones con otros autores.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img8.svg')
+                      img(src='@/assets/curso/tema1/img8.svg' style="width:350px").m-auto
               .p-2.p-lg-5.py-md-5(titulo="Lectura mecánica" :icono="require('@/assets/curso/tema1/img5.svg')")
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
@@ -110,16 +107,16 @@
                     ul.lista-ul
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        | Adquirir fluidez,
+                        | Adquirir fluidez.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
-                        | Entender cómo es la cohesión de un escrito y
+                        | Entender cómo es la cohesión de un escrito.
                       li 
                         i.fas.fa-location-arrow(style="color: #FF5900")
                         | Desarrollar la memoria funcional y la atención, para, finalmente, comprender.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img9.svg')
+                      img(src='@/assets/curso/tema1/img9.svg' style="width:350px").m-auto
             .row.align-items-center.mb-4
               .col-auto.pe-0
                 figure
@@ -183,24 +180,24 @@
             p.mb-0 Estas herramientas ayudan a encontrar el significado de lo que lee, como también las formas de estructurar el texto y cómo puede interactuar con él.
     p.mb-5 Por otro lado, es necesario revisar los procesos mentales que se necesitan para la comprensión textual y su origen, los cuales son:
     .row.justify-content-center.mb-6
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
-        .tarjeta-avatar-b.mb-5
+      .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
           .tarjeta.tarjeta--amarilla
             .p-4.h-100
               .row.align-items-center.h-100
                 .col-12
-                  p.mb-0 Los conocimientos previos
-      .col-lg-4(data-aos="fade-down")
-        .tarjeta-avatar-b.mb-5
+                  p.mb-0 Los conocimientos previos.
+      .col-md-8.col-lg-4(data-aos="fade-down")
+        .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
           .tarjeta.tarjeta--amarilla
             .p-4.h-100
               .row.align-items-center.h-100
                 .col
-                  p.mb-0 Los datos que el mismo texto entrega para la comprensión
+                  p.mb-0 Los datos que el mismo texto entrega para la comprensión.
     .row.bg-color5
       .col-12.p-5
         p.mb-5 Ahora bien, es indispensable hacer un proceso de preparación para realizar un buen proceso de lectura que le sirva para conectarse con el autor; por medio del siguiente contenido, conocerá dicho proceso:
@@ -236,14 +233,9 @@
                     li 
                       i.fas.fa-location-arrow(style="color: #FF5900")
                       | Los textos narrativos y su estructura secuencial: ambiente, evento inicial, respuesta interna, acción, consecuencia y reacción, entre otros.
-                    li
-                      ul
-                        li 
-                          i.fas.fa-circle(style="color: #FF5900")
-                          | Los subtipos, en función de la intención del discurso, los cuales
                     li 
                       i.fas.fa-location-arrow(style="color: #FF5900")
-                      | pueden ser:
+                      | Los subtipos, en función de la intención del discurso, los cuales pueden ser:
                     li
                       ul
                         li 

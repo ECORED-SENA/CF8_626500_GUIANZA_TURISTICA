@@ -12,7 +12,7 @@
         .row.align-items-center
           .col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img1.png' style="width: 450px").m-auto
+              img(src='@/assets/curso/tema2/img1.png' style="width: 350px").m-auto
           .col-lg
             p.mb-0 La escritura, y especialmente la creativa, representa un reto para los escritores, desde una novela hasta un anuncio de promoción exigen calidad y contenidos universales, para llegar a muchas personas de acuerdo con la intencionalidad.
     Separador
@@ -29,7 +29,7 @@
           .col-12.bg-color11
             .p-4
               h4.txt-c1 Importante...
-              p La corrección de textos, de fondo y forma, presenta varias aristas de comprensión, como: la existencia de tipos de corrección:
+              p La corrección de textos, de fondo y forma, presenta varias aristas de comprensión, como la existencia de tipos de corrección:
               ul.lista-ul.mb-4
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
@@ -175,13 +175,16 @@
               ul.lista-ul
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
-                  | Esquematizar la oración temática,
+                  | Esquematizar la oración temática.
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
-                  | Definir las oraciones principales y secundarias junto con algunas para su desarrollo,
+                  | Definir las oraciones principales y secundarias junto con algunas para su desarrollo.
                 li 
                   i.fas.fa-location-arrow(style="color: #FF5900")
-                  | Identificar las conclusiones o recomendaciones, y  Definir las frases de cierre.
+                  | Identificar las conclusiones o recomendaciones.
+                li 
+                  i.fas.fa-location-arrow(style="color: #FF5900")
+                  | Definir las frases de cierre.
           .row.align-items-center
             .col-lg.mb-4.mb-lg-0
               h4 El desarrollo o proceso de la escritura
@@ -228,7 +231,7 @@
               .row.justify-content-center
                 .col-lg-8
                   figure
-                    img(src='@/assets/curso/tema2/img17.svg' style="width: 550px").m-auto
+                    img(src='@/assets/curso/tema2/img17.svg')
         .row(titulo="2")
           .col-12
             .p-2.p-lg-4
@@ -269,9 +272,9 @@
               p La forma de hablar del personaje es importante, ya que en un momento puede ser el más optimista y en otro, estar negativo y pesado, sin que se exagere, esta es una forma interesante de exponer la identidad de los personajes.
               p.mb-4 Muy importante: evite utilizar palabras rebuscadas, inusuales, excesivamente literarias; busque que los personajes se expresen de igual forma, lo cual se soluciona caracterizando a cada personaje, es decir, dándole un lugar de nacimiento, nivel educativo, personalidad, trabajo o uso del tiempo y experiencias relevantes de vida.
               .row.justify-content-center
-                .col-lg-8
+                .col-lg-9
                   figure
-                    img(src='@/assets/curso/tema2/img21.svg' style="width: 550px").m-auto
+                    img(src='@/assets/curso/tema2/img21.svg')
         .row(titulo="6")
           .col-12.m-2
             .p-2.p-lg-4

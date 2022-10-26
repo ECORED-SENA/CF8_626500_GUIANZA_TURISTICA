@@ -12,7 +12,7 @@
       SlyderA(tipo="b")
         .row
           .col-lg.mb-4.mb-lg-0
-            h4 Cartografiar las letra
+            h4 Cartografiar las letras
             p Es la compilación en un atlas universal de la literatura, viajando con la imaginación a muchas partes del mundo, a través de imágenes e historias y en varios estadios de la historia; este debe ir en orden cronológico, por idiomas, lenguas o áreas culturales, temas y coordenadas geográficas ubicando cada suceso.
           .col-lg-auto
             figure

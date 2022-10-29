@@ -53,7 +53,6 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-0 Matriz DOFA
-                      p.mb-0 Este video hace parte de la Complementaria Planeación para procesos administrativos.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=84fuGpQeYg0" target="_blank")
                         span Ver video 
